@@ -10,7 +10,7 @@ playlist_url = "https://www.youtube.com/playlist?list=PLRxwlG9Zrvy7E5qvVxFNLKfuw
 playlist = Playlist(playlist_url)
 
 # Define the output directory where the videos should be saved
-output_folder = "G:\\Mi unidad\\Proyectos empresariales\\€ Mis Proyectos €\\InnerStrength\\Videos narrador"
+output_folder = ""
 
 # Loop through each video in the playlist and download in 360p quality
 for video in playlist.videos:
